@@ -5,7 +5,16 @@
  */
 package model;
 //test
-
+ private final String nomTuile;
+    
+    private NomTuile(String nom){
+        nomTuile = nom;
+    }
+    
+    @Override
+    public String toString(){
+        return nomTuile;
+    }
 
 /**
  *
